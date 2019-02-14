@@ -28,3 +28,4 @@ export default class Component1 extends Component {
 }
 
 AppRegistry.registerComponent('Component1', () => Component1);
+ 

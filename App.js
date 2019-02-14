@@ -3,6 +3,7 @@ import { Platform, StyleSheet, Text, View } from 'react-native';
 
 //components
 import Component1 from './App/Components/Component1/Component1';
+import Component2 from './App/Components/Component2/Component2';
 
 const instructions = Platform.select({
 	ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -16,7 +17,7 @@ export default class App extends Component {
 		return (
 			// <View style={styles.container}>
 			<View>
-				<Component1/>
+				<Component2/>
 				{/* <Text style={styles.welcome}>Welcome to Ayesh!</Text>
 				<Text style={styles.instructions}>To get started, edit App.js</Text>
 				<Text style={styles.instructions}>{instructions}</Text> */}
